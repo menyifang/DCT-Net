@@ -24,4 +24,4 @@ Full-body translation in multi-styles & Video stylization
 ## Requirements
 
 
-## Getting Started
+## Quick Start
