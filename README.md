@@ -12,6 +12,7 @@ Official implementation of DCT-Net for Portrait Stylization.
 
 
 ## Demo
+Full-body translation in multi-styles & Video stylization
 <table>
 <tr>
     <td><img src="assets/demo_style.gif" width="100%"/></td>
@@ -20,3 +21,7 @@ Official implementation of DCT-Net for Portrait Stylization.
 </table>
 
 
+## Requirements
+
+
+## Getting Started
