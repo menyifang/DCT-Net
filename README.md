@@ -14,13 +14,8 @@ Official implementation of DCT-Net for Portrait Stylization.
 
 
 ## Demo
-Full-body translation in multi-styles & Video stylization
-<table>
-<tr>
-    <td><img src="assets/demo_style.gif" width="100%"/></td>
-    <td><img src="assets/demo_video.gif" width="100%"/></td>
-</tr>
-</table>
+![demo_vid](assets/demo.gif)
+
 
 ## News
 (2022-07-07) The paper is available now at arxiv(https://arxiv.org/abs/2207.02426).
@@ -30,3 +25,21 @@ Full-body translation in multi-styles & Video stylization
 
 
 ## Quick Start
+
+
+## Citation
+
+If you find this code useful for your research, please use the following BibTeX entry.
+
+```bibtex
+@inproceedings{men2022dct,
+  title={DCT-Net: Domain-Calibrated Translation for Portrait Stylization},
+  author={Men, Yifang and Yao, Yuan and Cui, Miaomiao and Lian, Zhouhui and Xie, Xuansong},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={41},
+  number={4},
+  pages={1--9},
+  year={2022},
+  publisher={ACM Vancouver, BC, Canada}
+}
+```
