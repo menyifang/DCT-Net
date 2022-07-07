@@ -6,7 +6,7 @@ Official implementation of DCT-Net for Portrait Stylization.
 
 
 > [**DCT-Net: Domain-Calibrated Translation for Portrait Stylization**](arxiv_url_coming_soon),            
-> Yifang Men(https://menyifang.github.io/)<sup>1</sup>, Yuan Yao<sup>1</sup>, Miaomiao Cui<sup>1</sup>, Zhouhui Lian(https://www.icst.pku.edu.cn/zlian/)<sup>2</sup>, Xuansong Xie<sup>1</sup>
+> [Yifang Men](https://menyifang.github.io/)<sup>1</sup>, Yuan Yao<sup>1</sup>, Miaomiao Cui<sup>1</sup>, [Zhouhui Lian](https://www.icst.pku.edu.cn/zlian/)<sup>2</sup>, Xuansong Xie<sup>1</sup>
 > _<sup>1</sup>[DAMO Academy, Alibaba Group](https://damo.alibaba.com), Beijing, China_  
 > _<sup>2</sup>[Wangxuan Institute of Computer Technology, Peking University](http://www.comp.polyu.edu.hk](https://www.icst.pku.edu.cn/), China_     
 > In: SIGGRAPH 2022 (**TOG**) 
