@@ -19,12 +19,53 @@ Official implementation of DCT-Net for Portrait Stylization.
 
 ## News
 (2022-07-07) The paper is available now at arxiv(https://arxiv.org/abs/2207.02426).
+(2022-08-08) cartoon function can be directly call from pythonSDK of [modelscope](https://modelscope.cn/#/models).
+(2022-08-08) The pertained model and infer code of 'anime' style is available now. More styles coming soon.
 
 
 ## Requirements
+* python 3
+* tensorflow (>=1.14)
+* easydict
+* numpy
+* both CPU/GPU are supported
 
 
 ## Quick Start
+
+### From python SDK
+A quick use with python SDK
+
+- Installation:
+```bash
+conda create -n dctnet python=3.8
+conda activate dctnet
+pip install tensorflow
+pip install "modelscope[cv]" -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
+```
+
+- Downloads:
+```bash
+python download.py
+```
+
+- Inference:
+```bash
+python run_sdk.py
+```
+
+
+### From source code
+```bash
+python run.py
+```
+
+
+## Acknowledgments
+
+Face detector and aligner are adapted from [Peppa_Pig_Face_Engine](https://github.com/610265158/Peppa_Pig_Face_Engine
+) and [InsightFace](https://github.com/TreB1eN/InsightFace_Pytorch).
+
 
 
 ## Citation
@@ -40,6 +81,13 @@ If you find this code useful for your research, please use the following BibTeX 
   number={4},
   pages={1--9},
   year={2022},
-  publisher={ACM Vancouver, BC, Canada}
+  publisher={ACM New York, NY, USA}
 }
 ```
+
+
+
+
+
+
+

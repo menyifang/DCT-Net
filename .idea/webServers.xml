@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="97e6de3f-73ca-4b14-a177-10b25899d222" name="11.160.138.24" url="http://11.160.138.24">
+        <fileTransfer rootFolder="/data/qingyao/gitProjects/DCT-Net" accessType="SFTP" host="11.160.138.24" port="22" sshConfigId="80d63b94-77a9-490e-a638-71580f352c36" sshConfig="myf272609@11.160.138.24:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
