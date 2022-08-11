@@ -36,6 +36,12 @@ Official implementation of DCT-Net for Portrait Stylization.
 
 ## Quick Start
 
+```bash
+git clone https://github.com/menyifang/DCT-Net.git
+cd DCT-Net
+
+```
+
 ### From python SDK
 A quick use with python SDK
 

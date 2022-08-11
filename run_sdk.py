@@ -1,12 +1,14 @@
 import cv2
+from modelscope.hub.snapshot_download import snapshot_download
 from modelscope.pipelines import pipeline
-from modelscope.utils.constant import Tasks
 
-img_cartoon = pipeline(Tasks.image_portrait_stylization, 'damo/cv_unet_person-image-cartoon_compound-models')
-img_cartoon = pipeline('image-portrait-stylization')
+model_dir = snapshot_download('damo/cv_unet_person-image-cartoon_compound-models', cache_dir='.')
+img_cartoon = pipeline('image-portrait-stylization', model=model_dir)
+
 result = img_cartoon('input.png')
 
 cv2.imwrite('result.png', result['output_img'])
+print('finished!')
 
 
 
