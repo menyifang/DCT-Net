@@ -26,10 +26,7 @@ Official implementation of DCT-Net for Portrait Stylization.
 
 
 ## Web Demo
-- [Chinese version] Integrated into [ModelScope](https://modelscope.cn/#/models). Try out the Web Demo [![ModelScope Spaces](
-https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/#/models/damo/cv_unet_person-image-cartoon_compound-models/summary)
-
-- [English version] Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/SIGGRAPH2022/DCT-Net)
+- Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/SIGGRAPH2022/DCT-Net)
 
 
 ## Requirements
