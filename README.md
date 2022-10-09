@@ -24,6 +24,8 @@ Official implementation of DCT-Net for Portrait Stylization.
 
 (2022-08-08) The pertained model and infer code of 'anime' style is available now. More styles coming soon.
 
+(2022-10-09) The multi-style pre-trained models (3d, handdrawn, sketch, artstyle) and usage are available now. 
+
 
 ## Web Demo
 - Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/SIGGRAPH2022/DCT-Net)
@@ -71,6 +73,47 @@ python run_sdk.py
 ```bash
 python run.py
 ```
+
+## Multi-style
+
+Multi-style models and usages are provided here.
+
+![demo_img](assets/styles.png)
+
+```bash
+git clone https://github.com/menyifang/DCT-Net.git
+cd DCT-Net
+```
+
+###  Multi-style models download
+
+- upgrade modelscope>=0.4.7
+
+```bash
+conda activate dctnet
+pip install --upgrade "modelscope[cv]" -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
+```
+
+- Download the pretrained models with specific styles [option: anime, 3d, handdrawn, sketch, artstyle]
+```bash
+python multi-style/download.py --style 3d
+```
+
+### Inference
+
+- Quick infer with python SDK, style choice [option: anime, 3d, handdrawn, sketch, artstyle]
+
+```bash
+python multi-style/run_sdk.py --style 3d
+```
+
+- Infer from source code & downloaded models
+```bash
+python multi-style/run.py --style 3d
+```
+
+
+
 
 
 ## Acknowledgments
