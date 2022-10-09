@@ -18,13 +18,14 @@ Official implementation of DCT-Net for Portrait Stylization.
 
 
 ## News
-(2022-07-07) The paper is available now at arxiv(https://arxiv.org/abs/2207.02426).
 
-(2022-08-08) cartoon function can be directly call from pythonSDK.
+(2022-10-09) The multi-style pre-trained models (3d, handdrawn, sketch, artstyle) and usage are available now. 
 
 (2022-08-08) The pertained model and infer code of 'anime' style is available now. More styles coming soon.
 
-(2022-10-09) The multi-style pre-trained models (3d, handdrawn, sketch, artstyle) and usage are available now. 
+(2022-08-08) cartoon function can be directly call from pythonSDK.
+
+(2022-07-07) The paper is available now at arxiv(https://arxiv.org/abs/2207.02426).
 
 
 ## Web Demo
