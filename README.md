@@ -12,6 +12,9 @@ Official implementation of DCT-Net for Full-body Portrait Stylization.
 > In: SIGGRAPH 2022 (**TOG**) 
 > *[arXiv preprint](https://arxiv.org/abs/2207.02426)* 
 
+<a href="https://colab.research.google.com/github/menyifang/DCT-Net/blob/main/notebooks/inference.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/SIGGRAPH2022/DCT-Net)
+
 
 ## Demo
 ![demo_vid](assets/demo.gif)
@@ -29,6 +32,7 @@ Official implementation of DCT-Net for Full-body Portrait Stylization.
 
 
 ## Web Demo
+- Integrated into [Colab notebook](https://colab.research.google.com/github/menyifang/DCT-Net/blob/main/notebooks/inference.ipynb). Try out the colab demo.
 - Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/SIGGRAPH2022/DCT-Net)
 
 
@@ -41,6 +45,8 @@ Official implementation of DCT-Net for Full-body Portrait Stylization.
 
 
 ## Quick Start
+<a href="https://colab.research.google.com/github/menyifang/DCT-Net/blob/main/notebooks/inference.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> 
+
 
 ```bash
 git clone https://github.com/menyifang/DCT-Net.git
