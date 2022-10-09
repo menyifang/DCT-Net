@@ -1,8 +1,8 @@
-# DCT-Net: Domain-Calibrated Translation for Full-body Portrait Stylization
+# DCT-Net: Domain-Calibrated Translation for Portrait Stylization
 
 ### [Project page](https://menyifang.github.io/projects/DCTNet/DCTNet.html) |  [Video](https://www.youtube.com/watch?v=Y8BrfOjXYQM) | [Paper](https://arxiv.org/abs/2207.02426)
 
-Official implementation of DCT-Net for Portrait Stylization.
+Official implementation of DCT-Net for Full-body Portrait Stylization.
 
 
 > [**DCT-Net: Domain-Calibrated Translation for Portrait Stylization**](arxiv_url_coming_soon),             
