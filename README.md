@@ -44,6 +44,7 @@ https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/#/mo
 * python 3
 * tensorflow (>=1.14)
 * easydict
+* imageio[ffmpeg]
 * numpy
 * both CPU/GPU are supported
 
@@ -101,7 +102,7 @@ python run.py
 video can be directly processed as image sequences, style choice [option: anime, 3d, handdrawn, sketch, artstyle, sd-design, sd-illustration]
 
 ```bash
-python run_vid.py --style anime
+python run_vid.py --video_path input.mp4 --save_path res.mp4 --style anime
 ```
 
 
