@@ -1,0 +1,12 @@
+{
+    "parameters": {
+        "output": "face_generation/experiment_stylegan",
+        "ffhq_ckpt": "pretrained_models/stylegan2-ffhq-config-f-256-550000.pt",
+        "size": 256,
+        "sample": 1,
+        "pics": 5000,
+        "truncation": 0.7,
+        "form": "single"
+    }
+}
+
