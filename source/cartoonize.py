@@ -16,9 +16,11 @@ class Cartoonizer():
 
         self.facer = FaceAna(dataroot)
         self.sess_head = self.load_sess(
-            os.path.join(dataroot, 'cartoon_anime_h.pb'), 'model_head')
+            # os.path.join(dataroot, 'cartoon_anime_h.pb'), 'model_head')
+            os.path.join(dataroot, 'cartoon_h.pb'), 'model_head')
         self.sess_bg = self.load_sess(
-            os.path.join(dataroot, 'cartoon_anime_bg.pb'), 'model_bg')
+            # os.path.join(dataroot, 'cartoon_anime_bg.pb'), 'model_bg')
+            os.path.join(dataroot, 'cartoon_bg.pb'), 'model_bg')
 
         self.box_width = 288
         global_mask = cv2.imread(os.path.join(dataroot, 'alpha.jpg'))
